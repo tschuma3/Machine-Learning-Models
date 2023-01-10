@@ -17,7 +17,7 @@ Linear Regression
 
 
 #The csv file we want to get the data from
-data = pd.read_csv(r"D:\GitHub Repos\Machine-Learning-Models\student-mat.csv", sep=";")
+data = pd.read_csv(r"D:\GitHub Repos\Machine-Learning-Models\Linear Regression\student-mat.csv", sep=";")
 
 #What data we want to use
 data = data[["G1", "G2", "G3", "studytime", "failures", "absences"]]
@@ -63,7 +63,7 @@ for _ in range(30):
 """
 
 #Reading in pickle file
-pickle_in = open("student_model.pickle", "rb")
+pickle_in = open(r"Linear Regression\student_model.pickle", "rb")
 linear = pickle.load(pickle_in)
 
 #Prints out the coefficient and y intercept
