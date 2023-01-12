@@ -15,7 +15,7 @@ K Nearest Neighbors
             4. vgood
     -- Need to convert non numerical data into numerical data
     -- Attempts to classify the data based on the given data
-    -- Looks for grouping of data points and groups that point to thhe closest group
+    -- Looks for grouping of data points and groups that point to the closest group
     -- Finds k neighbors and basically majority rules in where the data point is grouped
     -- Picks an odd value for k so there are no ties
     -- The math
